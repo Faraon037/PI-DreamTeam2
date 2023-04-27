@@ -2,11 +2,12 @@ import streamlit as st
 
 
 def var1():
-    st.title("Титаник")
     st.header('Вариант 1. Выполнила Александрова Е.В., группа 3-см')
-    st.subheader('Задание: Вывести имя и возраст спасенных детей, указав пол и возраст (от 0 до 18)')
-    sex_select = st.selectbox("sex", ('male', 'female'))
-    age_select = st.slider("age", 0, 18, [1, 10])
+    st.subheader("Задание:")
+    st. info('Вывести имя и возраст спасенных детей, указав пол и возраст (от 0 до 18)')
+    st.subheader("Результат:")
+    sex_select = st.selectbox("Выберите пол пассажира", ('male', 'female'))
+    age_select = st.slider("Укажите возрастной диапазон пассажиров", 0, 18, [1, 10])
     age_min = age_select[0]
     age_max = age_select[1]
 
