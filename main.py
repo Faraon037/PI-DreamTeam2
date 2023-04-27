@@ -2,7 +2,7 @@ import streamlit as st
 import Var_5_1
 import Var_11
 import Var_1
-st.title('"PI-DreamTeam2" гр. 3 см')
+st.title('ТИТАНИК (PI-DreamTeam2)')
 option = st.selectbox('Выберите исполнителя',
     ('Григорьева К.В.', 'Александрова Е.В', 'Кузнецов Н.В.', 'Беляева М.М.', 'Бессонова А.А.'))
 if option == 'Григорьева К.В.':
