@@ -19,9 +19,10 @@ def var11():
                 sum_alive += float(str[10])
         avr_dead = sum_dead/count_dead
         avr_alive = sum_alive/count_alive
-    st.title('Приложение "Титаник"')
     st.header('Вариант 11. Выполнила Григорьева К.В., группа 3-см')
-    st.subheader('Задание: Посчитать среднюю стоимость билета (поле Fare) у пассажиров, указав - спасен или нет.')
+    st.subheader("Задание:")
+    st. info('Посчитать среднюю стоимость билета (поле Fare) у пассажиров, указав - спасен или нет.')
+    st.subheader("Результат:")
     choice = st.radio ('Показатель везения пассажира', options = ['Спасен', 'Погиб'])
     if choice == 'Спасен':
         avr_out = avr_alive
@@ -29,5 +30,5 @@ def var11():
     elif choice == 'Погиб':
         avr_out = avr_dead
         text_out = 'Средняя стоимость билета погибших пассажиров'
-    st.text (text_out)
-    st.text (avr_out)
+    st.text(text_out)
+    st.success(avr_out)
