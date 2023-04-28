@@ -1,4 +1,6 @@
 import streamlit as st
+
+
 def var4():
     st.header('Вариант 4. Выполнила Беляева М.М., группа 3-см')
     st.subheader("Задание:")
