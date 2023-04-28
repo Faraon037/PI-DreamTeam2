@@ -2,6 +2,7 @@ import streamlit as st
 import Var_5_1
 import Var_11
 import Var_1
+import Var_4
 st.title('Веб-приложение "ТИТАНИК" (разработка PI-DreamTeam2)')
 option = st.selectbox('Выберите исполнителя',
     ('Григорьева К.В.', 'Александрова Е.В', 'Кузнецов Н.В.', 'Беляева М.М.', 'Бессонова А.А.'))
