@@ -13,4 +13,4 @@ def var5_2():
             if fio1 == name.capitalize() and lst[1] == "1" and ln_name > 0:
                 n = lst[3] + lst[4]
                 x = ", ".join([lst[2], n[1:-1], lst[6]])
-            st.text(x)
+                st.text(x)
