@@ -25,7 +25,6 @@ def var10():
                 i_male += 1
             elif lst[1] == "0" and lst[5] == "male":
                 i_male += 1
-    res = float(0)
     if sex == "Мужской":
         res = (male_i/i_male)*100
     if sex == "Женский":
