@@ -16,15 +16,15 @@ def var10():
         for line in file:
             lst = line.rstrip().split(',')
             if lst[1] == "1" and lst[5] == "female":
-               female_i += 1
-               i_female += 1
-           elif lst[1] == "0" and lst[5] == "female":
-               i_female += 1
-           if lst[1] == "1" and lst[5] == "male":
-              male_i += 1
-              i_male += 1
-          elif lst[1] == "0" and lst[5] == "male":
-              i_male += 1
+                female_i += 1
+                i_female += 1
+            elif lst[1] == "0" and lst[5] == "female":
+                i_female += 1
+            if lst[1] == "1" and lst[5] == "male":
+                male_i += 1
+                i_male += 1
+            elif lst[1] == "0" and lst[5] == "male":
+                i_male += 1
     res = float(0)
     if sex == "Мужской":
         res = (male_i/i_male)*100
