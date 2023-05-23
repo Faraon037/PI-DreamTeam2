@@ -9,7 +9,7 @@ def var10():
     male_i = 0 
     i = 0
     res = float(0)
-    sex = st.selectbox("Пол выжеыших пассажиров", ["Мужской", "Женский"])
+    sex = st.selectbox("Пол выживших пассажиров", ["Мужской", "Женский"])
     with open("data.csv") as file:
         for line in file:
             lst = line.rstrip().split(',')
