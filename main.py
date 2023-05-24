@@ -4,7 +4,7 @@ import Var_1
 import Var_4
 import Var_5_2
 import Var_11
-import Var_10
+import var_10
 with open("data.csv") as file:
     data = file.readlines()
 st.title('Веб-приложение "ТИТАНИК" (разработка PI-DreamTeam2)')
