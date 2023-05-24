@@ -1,4 +1,4 @@
-from main import sex_deadh
+from var_10 import sex_deadh
 
 
 def test_male():
