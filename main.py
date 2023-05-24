@@ -15,7 +15,7 @@ if option == 'Григорьева К.В.':
 if option == 'Александрова Е.В':
     Var_1.var1()
 if option == 'Кузнецов Н.В.':
-    Var_10.var10(data)    
+    var_10.var10(data)    
 if option == 'Беляева М.М.':
     Var_4.var4() 
 if option == 'Бессонова А.А.':
