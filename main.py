@@ -7,14 +7,14 @@ import var_10
 with open("data.csv") as file:
     data = file.readlines()
 st.title('Веб-приложение "ТИТАНИК" (разработка PI-DreamTeam2)')
-option = st.selectbox('Выберите исполнителя', ('Григорьева К.В.', 
+option = st.selectbox('Выберите исполнителя', ('Григорьева К.В.',
                                                'Александрова Е.В', 'Кузнецов Н.В.', 'Беляева М.М.', 'Бессонова А.А.'))
 if option == 'Григорьева К.В.':
     var_11.run_result(data)
 if option == 'Александрова Е.В':
     Var_1.var1()
 if option == 'Кузнецов Н.В.':
-    var_10.var10(data)    
+    var_10.var10(data)
 if option == 'Беляева М.М.':
     Var_4.var4()
 if option == 'Бессонова А.А.':
