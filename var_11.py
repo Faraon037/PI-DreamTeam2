@@ -30,6 +30,3 @@ def run_result(data):
         text_out = 'Средняя стоимость билета погибших пассажиров'
     st.text(text_out)
     st.success(avr_out)
-
-
-run_result(data)
