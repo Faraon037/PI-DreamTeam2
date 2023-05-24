@@ -1,17 +1,19 @@
-def sex_deadh (data, sex):
-    pas_i = 0
-    i_all = 0
-    res = float(0)
-    for line in data:
-        lst = line.rstrip().split(',')
-        if lst[1] == "1" and lst[5] == sex:
-            pas_i += 1
-            i_all += 1
-        elif lst[1] == "0" and lst[5] == sex:
-            i_all += 1
-    res = round((pas_i / i_all) * 100,2)
-    return res
-
-with open("data.csv") as file:
-    data = file.readlines()
-print(sex_deadh(data,"male"))
+import streamlit as st
+import Var_1
+import Var_4
+import Var_5_2
+import Var_11
+import Var_10
+st.title('Веб-приложение "ТИТАНИК" (разработка PI-DreamTeam2)')
+option = st.selectbox('Выберите исполнителя',
+    ('Григорьева К.В.', 'Александрова Е.В', 'Кузнецов Н.В.', 'Беляева М.М.', 'Бессонова А.А.'))
+if option == 'Григорьева К.В.':
+    Var_11.run_result()
+if option == 'Александрова Е.В':
+    Var_1.var1()
+if option == 'Кузнецов Н.В.':
+    Var_10.var10()    
+if option == 'Беляева М.М.':
+    Var_4.var4() 
+if option == 'Бессонова А.А.':
+    Var_5_2.var5_2()   
