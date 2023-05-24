@@ -1,3 +1,4 @@
+import streamlit as st
 from Var_1 import get_result
 
 
