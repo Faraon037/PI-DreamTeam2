@@ -1,7 +1,5 @@
 import streamlit as st
 
-
-
 def sex_deadh (data, sex):
     pas_i = 0
     i_all = 0
