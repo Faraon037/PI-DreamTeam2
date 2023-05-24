@@ -23,6 +23,6 @@ def var10():
         sex_in = st.selectbox("Пол выживших пассажиров", ["Мужской", "Женский"])
     if sex_in == "Мужской":
         sex = "male"
-    if sex_in == "Женский":
+    else:
         sex = "female"
     st.text("Доля выживших указанного пола - {0} %".format(str(sex_deadh(data, sex))))
