@@ -14,7 +14,7 @@ def sex_deadh (data, sex):
             i_all += 1
     return round((pas_i / i_all) * 100, 2)
 
-def var10():
+def var10(data):
     st.title('Приложение "Титаник"')
     st.header("Вариант №10 \n Выполнил Кузнецов Н.В. гр. 3 см")
     st.subheader("Задание \n Посчитать долю выживших среди пассажиров указанного пола.")
