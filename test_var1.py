@@ -1,4 +1,4 @@
-from Var_1 import get_result
+from var_1 import get_result
 
 
 def test_var1_male():
