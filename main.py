@@ -2,7 +2,7 @@ import streamlit as st
 import Var_1
 import Var_4
 import Var_5_2
-import Var_11
+import var_11
 import var_10
 with open("data.csv") as file:
     data = file.readlines()
