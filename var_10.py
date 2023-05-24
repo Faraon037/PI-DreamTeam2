@@ -14,13 +14,11 @@ def sex_deadh (data, sex):
             i_all += 1
     return round((pas_i / i_all) * 100, 2)
 
-def var10():
+def var10(data):
     st.title('Приложение "Титаник"')
     st.header("Вариант №10 \n Выполнил Кузнецов Н.В. гр. 3 см")
     st.subheader("Задание \n Посчитать долю выживших среди пассажиров указанного пола.")
-    with open("data.csv") as file:
-        data = file.readlines()
-        sex_in = st.selectbox("Пол выживших пассажиров", ["Мужской", "Женский"])
+    sex_in = st.selectbox("Пол выживших пассажиров", ["Мужской", "Женский"])
     if sex_in == "Мужской":
         sex = "male"
     else:
