@@ -25,5 +25,5 @@ def var10():
     if sex_in == "Мужской":
         sex = "male"
     if sex_in == "Женский":
-        res = "female"
-    print(sex_deadh(data,sex))
+        sex = "female"
+    print(sex_deadh(data, sex))
