@@ -1,5 +1,5 @@
 import streamlit as st
-import Var_1
+import var_1
 import Var_4
 import Var_5_2
 import var_11
@@ -12,7 +12,7 @@ option = st.selectbox('Выберите исполнителя', ('Григор�
 if option == 'Григорьева К.В.':
     var_11.run_result(data)
 if option == 'Александрова Е.В':
-    Var_1.var1()
+    var_1.var1(data)
 if option == 'Кузнецов Н.В.':
     var_10.var10(data)
 if option == 'Беляева М.М.':
