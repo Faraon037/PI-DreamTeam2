@@ -24,4 +24,4 @@ def var10():
         sex = "male"
     if sex_in == "Женский":
         sex = "female"
-    st.text("Доля выживших указанного пола - {0} %".sex_deadh(data, sex))
+    st.text("Доля выживших указанного пола - {0} %".format(str(sex_deadh(data, sex))))
