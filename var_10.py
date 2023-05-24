@@ -1,8 +1,7 @@
 import streamlit as st
 
 
-
-def sex_deadh (data, sex):
+def sex_deadh(data, sex):
     pas_i = 0
     i_all = 0
     for line in data:
@@ -13,6 +12,7 @@ def sex_deadh (data, sex):
         elif lst[1] == "0" and lst[5] == sex:
             i_all += 1
     return round((pas_i / i_all) * 100, 2)
+
 
 def var10(data):
     st.title('Приложение "Титаник"')
