@@ -16,8 +16,7 @@ def get_result(data, sex_need, age_min, age_max):
     return titanic
 
 
-def var1():
-    a = open("data.csv", "r")
+def var1(data):
     st.header('Вариант 1. Выполнила Александрова Е.В., группа 3-см')
     st.subheader("Задание:")
     st.info('Вывести имя и возраст спасенных детей, указав пол и возраст (от 0 до 18)')
@@ -26,6 +25,6 @@ def var1():
     age_select = st.slider("Укажите возрастной диапазон пассажиров", 0, 18, [1, 10])
     min_age = age_select[0]
     max_age = age_select[1]
-    result = get_result(a, sex_select, min_age, max_age)
+    result = get_result(data, sex_select, min_age, max_age)
     st.table(result)
     
