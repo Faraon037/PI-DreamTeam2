@@ -13,8 +13,8 @@ def var10():
                 i_all += 1
             elif lst[1] == "0" and lst[5] == sex:
                 i_all += 1
-        res = round((pas_i / i_all) * 100,2)
-        return res
+#        res = round((pas_i / i_all) * 100, 2)
+        return round((pas_i / i_all) * 100, 2)
 
     st.title('Приложение "Титаник"')
     st.header("Вариант №10 \n Выполнил Кузнецов Н.В. гр. 3 см")
