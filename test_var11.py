@@ -1,4 +1,4 @@
-from Var_11 import *
+from var_11 import var11
 
 
 def test_var11_alive():
