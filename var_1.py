@@ -27,4 +27,3 @@ def var1(data):
     max_age = age_select[1]
     result = get_result(data, sex_select, min_age, max_age)
     st.table(result)
-    
