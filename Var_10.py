@@ -5,7 +5,7 @@ def var10():
     def sex_deadh (data, sex):
         pas_i = 0
         i_all = 0
-        res = float(0)
+#        res = float(0)
         for line in data:
             lst = line.rstrip().split(',')
             if lst[1] == "1" and lst[5] == sex:
@@ -26,4 +26,4 @@ def var10():
         sex = "male"
     if sex_in == "Женский":
         sex = "female"
-    print(sex_deadh(data, sex))
+    st.text(sex_deadh(data, sex))
