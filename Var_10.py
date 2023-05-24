@@ -20,7 +20,7 @@ def var10():
     st.subheader("Задание \n Посчитать долю выживших среди пассажиров указанного пола.")
 #    with open("data.csv") as file:
 #        data = file.readlines()
-        sex_in = st.selectbox("Пол выживших пассажиров", ["Мужской", "Женский"])
+    sex_in = st.selectbox("Пол выживших пассажиров", ["Мужской", "Женский"])
     if sex_in == "Мужской":
         sex = "male"
     else:
