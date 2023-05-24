@@ -32,4 +32,4 @@ def run_result(data):
     st.success(avr_out)
 
 
-run_result()
+run_result(data)
