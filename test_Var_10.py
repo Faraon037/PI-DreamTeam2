@@ -1,3 +1,4 @@
+import streamlit as st
 from main import sex_deadh
 
 def test_male():
