@@ -14,8 +14,7 @@ def var11(file, attribute):
     return avr_dead_alive
 
 
-def run_result():
-    file_data = open('data.csv', 'r')
+def run_result(data):
 
     st.header('Вариант 11. Выполнила Григорьева К.В., группа 3-см')
     st.subheader("Задание:")
@@ -24,10 +23,10 @@ def run_result():
 
     choice = st.radio('Показатель везения пассажира', options=['Спасен', 'Погиб'])
     if choice == 'Спасен':
-        avr_out = var11(file_data, '1')
+        avr_out = var11(data, '1')
         text_out = 'Средняя стоимость билета спасеннных пассажиров'
     elif choice == 'Погиб':
-        avr_out = var11(file_data, '0')
+        avr_out = var11(data, '0')
         text_out = 'Средняя стоимость билета погибших пассажиров'
     st.text(text_out)
     st.success(avr_out)
