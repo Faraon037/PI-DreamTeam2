@@ -7,7 +7,7 @@ def name_cena(data, cena):
         if line.split(",")[0] == "PassengerId":
             continue
         if float(line.split(",")[10]) > float(cena):
-            n += [line.split(",")[3] + line.split(",")[4]]
+            n += [line.split(",")[3] + line.split(",")[4]][1:-1]
     return n
 #        if float(line.split(",")[10]) > float(cena):
 #           name = [lst[3] + lst[4]]
