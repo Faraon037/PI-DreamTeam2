@@ -9,7 +9,7 @@ def name_cena(data,cena):
         if float(lst[10])  > float(cena):
             n = lst[3] + lst[4]
             x = ", ".join([lst[2], n[1:-1], lst[6]])
-        return x
+        return n
 #        if float(line.split(",")[10]) > float(cena):
 #           name = [lst[3] + lst[4]]
  #           name_out = ", ".join(name[1:-1])
