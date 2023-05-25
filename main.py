@@ -1,6 +1,6 @@
 import streamlit as st
 import var_1
-import Var_4
+import var_4
 import Var_5_2
 import var_11
 import var_10
@@ -16,6 +16,6 @@ if option == 'Александрова Е.В':
 if option == 'Кузнецов Н.В.':
     var_10.var10(data)
 if option == 'Беляева М.М.':
-    Var_4.var4()
+    var_4.var4(data)
 if option == 'Бессонова А.А.':
     Var_5_2.var5_2()
