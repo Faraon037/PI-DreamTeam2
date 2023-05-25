@@ -1,6 +1,6 @@
 import streamlit as st
 
-def name_cena(data,cena):
+def name_cena(data, cena):
     n = []
     for line in data:
 #        lst = line.rstrip().split(',')
@@ -20,4 +20,4 @@ def var4(data):
     st.info("Вывести имена пассажиров, стоимость билета которых была выше указанной")
     st.subheader("Результат:")
     cena = st.text_input("Введите стоимость билета", 10000)
-    st.text(name_cena(data,cena))
+    st.text(name_cena(data, cena))
