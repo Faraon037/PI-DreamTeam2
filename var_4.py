@@ -13,9 +13,9 @@ def name_cena(data,cena):
     return name_out
 
 def var4(data):
-st.header('Вариант 4. Выполнила Беляева М.М., группа 3-см')
+    st.header('Вариант 4. Выполнила Беляева М.М., группа 3-см')
     st.subheader("Задание:")
     st.info("Вывести имена пассажиров, стоимость билета которых была выше указанной")
     st.subheader("Результат:")
     cena = st.text_input("Введите стоимость билета", 10000)
-st.text(name_cena(data,cena))
+    st.text(name_cena(data,cena))
