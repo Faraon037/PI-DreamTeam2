@@ -11,7 +11,7 @@ def name_cena(data,cena):
         if float(line.split(",")[10]) > float(cena):
             name = [lst[3] + lst[4]]
             name_out = ", ".join(name[1:-1])
-            return name_out
+        return name_out
 
 def var4(data):
     st.header('Вариант 4. Выполнила Беляева М.М., группа 3-см')
