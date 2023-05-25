@@ -7,7 +7,7 @@ def name_cena(data, cena):
         if line.split(",")[0] == "PassengerId":
             continue
         if float(line.split(",")[10]) > float(cena):
-            n += [line.split(",")[3] + line.split(",")[4]][1:-1]
+            n += [line.split(",")[3] + line.split(",")[4]]
     return n
 #        if float(line.split(",")[10]) > float(cena):
 #           name = [lst[3] + lst[4]]
@@ -20,4 +20,4 @@ def var4(data):
     st.info("Вывести имена пассажиров, стоимость билета которых была выше указанной")
     st.subheader("Результат:")
     cena = st.text_input("Введите стоимость билета", 10000)
-    st.text(name_cena(data, cena))
+    st.table(name_cena(data, cena))
