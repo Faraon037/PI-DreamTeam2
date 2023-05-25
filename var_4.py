@@ -20,4 +20,5 @@ def var4(data):
     st.info("Вывести имена пассажиров, стоимость билета которых была выше указанной")
     st.subheader("Результат:")
     cena = st.text_input("Введите стоимость билета", 10000)
-    st.table(name_cena(data, cena))
+    for line in data:
+        st.text(name_cena(data, cena))
