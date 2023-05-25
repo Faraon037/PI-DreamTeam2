@@ -2,8 +2,8 @@ import streamlit as st
 
 def name_cena(data,cena):
     for line in data:
-        lst = data.rstrip().split(',')
-        if data.split(",")[0] == "PassengerId":
+        lst = line.rstrip().split(',')
+        if lst[0] == "PassengerId":
             continue
         if float(lst[10])  > float(cena):
             n = lst[3] + lst[4]
