@@ -1,14 +1,15 @@
 import streamlit as st
 
 def name_cena(data,cena):
+    global x
     for line in data:
         lst = line.rstrip().split(',')
         if lst[0] == "PassengerId":
             continue
         if float(lst[10])  > float(cena):
             n = lst[3] + lst[4]
-            name_out = ", ".join([lst[2], n[1:-1], lst[6]])
-        return name_out
+            x = ", ".join([lst[2], n[1:-1], lst[6]])
+        return x
 #        if float(line.split(",")[10]) > float(cena):
 #           name = [lst[3] + lst[4]]
  #           name_out = ", ".join(name[1:-1])
