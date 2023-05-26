@@ -7,6 +7,8 @@ def pas_save(data, name):
         lst = line.rstrip().split(',')
         fio = lst[3] + lst[4]
         fio1 = fio[1:len(name) + 1]
+        if line.split(",")[0] == "PassengerId":
+            continue
         if fio1 == name.capitalize() and int(lst[1]) == int(1) and int(len(name)) > int(0):
             y += [fio]
     return y
