@@ -1,7 +1,7 @@
 import streamlit as st
 import var_1
 import var_4
-import Var_5_2
+import var_5
 import var_11
 import var_10
 with open("data.csv") as file:
@@ -18,4 +18,4 @@ if option == 'Кузнецов Н.В.':
 if option == 'Беляева М.М.':
     var_4.var4(data)
 if option == 'Бессонова А.А.':
-    Var_5_2.var5_2()
+    var_5.var5(data)
