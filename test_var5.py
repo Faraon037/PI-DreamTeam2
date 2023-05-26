@@ -1,4 +1,4 @@
-from var_5 import var5
+from var_5 import pas_save
 
 def test_alive_iv():
     data = ['0,1,2,"Ivanov,Out"', '1,1,2,"Petrov,Out"', '2,1,1,"Ivan,Out"']
