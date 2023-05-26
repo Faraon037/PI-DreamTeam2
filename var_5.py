@@ -1,5 +1,5 @@
 
-def var5(data,save,name):
+def pas_save(data,save,name):
 #    st.header("Вариант 5. Выполнила Бессонова А.А., группа 3-см")
 #    st.info("Вывести Класс, Имя, Возраст спасенных пассажиров с именами, начинающимися на введенный текст")
 #    st.subheader("Результат:")
@@ -15,7 +15,10 @@ def var5(data,save,name):
             y += [fio]
     return y
 
-
-with open("data.csv") as file:
-    data = file.readlines()
-print(var5(data, 0, "br"))
+def var5(data):
+    st.header("Вариант 5. Выполнила Бессонова А.А., группа 3-см")
+    st.info("Вывести Класс, Имя, Возраст спасенных пассажиров с именами, начинающимися на введенный текст")
+    st.subheader("Результат:")
+    name = st.text_input("Введите первые буквы имени спасенного пассажира")
+    ln_name = len(name)
+st.table(pas_save(data,save,name))
