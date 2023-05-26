@@ -21,4 +21,4 @@ def var5(data):
     st.subheader("Результат:")
     name = st.text_input("Введите первые буквы имени спасенного пассажира")
     ln_name = len(name)
-st.table(pas_save(data,save,name))
+    st.table(pas_save(data,save,name))
