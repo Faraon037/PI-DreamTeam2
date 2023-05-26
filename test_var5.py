@@ -7,5 +7,5 @@ def test_alive_iv():
 
 def test_alive_ru():
     data = ['0,1,2,"Ruanor,Out"', '1,1,2,"Rutrov,Out"', '2,0,1,"Rubov,Out"']
-    assert var5(data, 0, "ru") == ['"RuanorOut"','"RutrovOut"']
+    assert var5(data, "ru") == ['"RuanorOut"','"RutrovOut"']
 
