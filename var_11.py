@@ -19,7 +19,7 @@ def var11(file, attribute):
 
 def run_result(data):
 
-    st.header('Вариант 11'
+    st.header('Вариант 11')
     st.header('Выполнила Григорьева Ксения')
     st.header('группа 3-см')
     st.subheader("Задание:")
