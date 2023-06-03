@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-def name_cena(data, cena):  #  Основной код
+def name_cena(data, cena):  # Основной код
     n = []
     for line in data:
         if line.split(",")[0] == "PassengerId":
