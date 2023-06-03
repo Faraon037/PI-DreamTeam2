@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-def var11(file, attribute):
+def var11(file, attribute): # Основной код
     avr_dead_alive = 0
     sum_dead_alive = 0
     count_dead_alive = 0
