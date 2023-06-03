@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-def name_cena(data, cena): #  Основной код
+def name_cena(data, cena):  #  Основной код
     n = []
     for line in data:
         if line.split(",")[0] == "PassengerId":
@@ -11,7 +11,7 @@ def name_cena(data, cena): #  Основной код
     return n
 
 
-def var4(data): # Вариант 4
+def var4(data):  # Вариант 4
     st.header('Вариант 4. Выполнила Беляева М.М., группа 3-см')
     st.subheader("Задание:")
     st.info("Вывести имена пассажиров, стоимость билета которых была выше указанной")
