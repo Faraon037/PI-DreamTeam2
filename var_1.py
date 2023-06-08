@@ -17,7 +17,7 @@ def get_result(data, sex_need, age_min, age_max):
 
 
 def var1(data):
-    st.header('Вариант 1. Выполнила Александрова Е.В.')
+    st.header('Вариант 1. Выполнила Александрова  Е.В.')
     st.subheader('группа 3-см')
     st.subheader("Задание:")
     st.info('Вывести имя и возраст спасенных детей, указав пол и возраст (от 0 до 18)')
